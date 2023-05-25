@@ -46,9 +46,23 @@ input{
 }
 #btnFlecha{
   padding: 30px;
-  background-color: blueviolet;
+  background-color: black;
   color: white;
   border-radius: 50%;
   border: 2px solid black;
 }
-
+.flecha{
+  background-color: blueviolet;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
+.year, .month, .day{
+  display: flex;
+}
+h1{
+  font-size: 56px;
+}
+#num{
+  color: blueviolet;
+} 
