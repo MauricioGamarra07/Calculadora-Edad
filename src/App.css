@@ -23,14 +23,26 @@
 .cajastexto{
   display: flex;
   justify-content: space-between;
-  width: 360px;
+  width: 400px;
 }
 .caja-day, .caja-month, .caja-year{
+  position: relative;
   display: flex;
   flex-direction: column;
 }
+span{
+  position: absolute;
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  bottom: -35%;
+  color: rgb(226, 44, 44);
+}
+.rojo{
+  color: red;
+  border-color: rgb(226, 44, 44);
+}
 input{
-  width: 100px;
+  width: 120px;
   padding: 10px;
   font-size: 24px;
   border: 1px solid gray;
@@ -67,6 +79,7 @@ h1{
 }
 #num{
   color: blueviolet;
+  margin-right: 20px;
 }
 @media (max-width: 800px){
   .card{
